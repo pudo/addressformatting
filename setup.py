@@ -35,7 +35,12 @@ setup(
         "PyYAML >= 5.0",
         "pystache >= 0.5",
     ],
-    setup_requires=[],
-    tests_require=[],
-    dependency_links=[],
+    extras_require={
+        "dev": [
+            "pytest",
+            "bump2version",
+            "wheel>=0.29.0",
+            "twine",
+        ],
+    },
 )
