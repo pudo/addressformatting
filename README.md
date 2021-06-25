@@ -5,8 +5,6 @@ in different countries.
 
 For formatting the addresses the `worldwide.yml` from [OpenCageData address-formatting repository](https://github.com/OpenCageData/address-formatting) is used to format the address according to customs in the country that is been encoded.
 
-See `README.md` in the [repository](https://github.com/dunkelstern/international_address_formatter) for more information.
-
 ## Changelog
 
 ### v1.0.2
