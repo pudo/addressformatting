@@ -5,20 +5,6 @@ in different countries.
 
 For formatting the addresses the `worldwide.yml` from [OpenCageData address-formatting repository](https://github.com/OpenCageData/address-formatting) is used to format the address according to customs in the country that is been encoded.
 
-## Changelog
-
-### v1.0.2
-
-- Update `worldwide.yml` data file (thanks @kimryan)
-
-### v1.0.1
-
-- Bugfix: Package did not find its data-file because of wrong path calculation
-
-### v1.0
-
-- Initial release, split out of the osmgeocoder project
-
 ## API documentation
 
 The complete project contains actually only one class:
