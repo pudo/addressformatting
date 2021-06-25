@@ -14,7 +14,7 @@ setup(
     description="Formatting utility for international postal addresses",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dunkelstern/international_address_formatter",
+    url="https://github.com/pudo/addressformatting",
     author="Johannes Schriewer",
     author_email="hallo@dunkelstern.de",
     license="BSD",
