@@ -34,6 +34,7 @@ def clean_address(full):
         prev = full
         full = full.replace(" ,", ",")
         full = full.replace(",,", ",")
+        full = full.replace("  ", " ")
         full = full.strip(",")
         full = full.strip()
     return full
