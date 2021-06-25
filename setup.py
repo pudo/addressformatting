@@ -10,7 +10,7 @@ with open("README.md") as f:
 
 setup(
     name="addressformatting",
-    version="1.1.0",
+    version="1.1.1",
     description="Formatting utility for international postal addresses",
     long_description=long_description,
     long_description_content_type="text/markdown",
