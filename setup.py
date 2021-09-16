@@ -15,8 +15,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pudo/addressformatting",
-    author="Johannes Schriewer",
-    author_email="hallo@dunkelstern.de",
+    author="Friedrich Lindenberg",
+    author_email="friedrich@pudo.org",
     license="BSD",
     include_package_data=True,
     classifiers=[
@@ -33,7 +33,7 @@ setup(
     scripts=[],
     install_requires=[
         "PyYAML >= 5.0",
-        "pystache >= 0.5",
+        "chevron >= 0.14.0",
     ],
     extras_require={
         "dev": [

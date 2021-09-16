@@ -1,21 +1,13 @@
-import pystache
+import chevron
 import functools
 
 
-renderer = pystache.Renderer()
-
-
-@functools.lru_cache(maxsize=None)
-def compile(text):
-    return pystache.parse(text)
-
-
 def render(template, context):
-    return renderer.render(compile(template), context)
+    return chevron.render(template, context)
 
 
 def first(address):
-    def _first(content):
+    def _first(content, render):
         tokens = [token.strip() for token in content.split("||")]
         for t in tokens:
             result = render(t, address)
