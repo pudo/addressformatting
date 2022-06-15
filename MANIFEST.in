@@ -1,3 +1,4 @@
 include addressformatting/data/worldwide.yml
+include addressformatting/py.typed
 include README.md
 include LICENSE.txt
