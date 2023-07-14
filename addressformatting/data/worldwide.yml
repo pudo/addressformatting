@@ -1118,7 +1118,14 @@ KN:
         {{{country}}}
 # Democratic People's Republic of Korea / North Korea
 KP:
-    address_template: *generic21
+    address_template: |
+        {{{attention}}}
+        {{{house}}}
+        {{{road}}} {{{house_number}}} 
+        {{#first}} {{{suburb}}} || {{{city_district}}} || {{{neighbourhood}}} {{/first}}
+        {{#first}} {{{city}}} || {{{town}}} || {{{village}}} {{/first}} 
+        {{#first}} {{{state}}} || {{{province}}} {{/first}}
+        {{{country}}}
 
 # Republic of Korea / South Korea
 KR:
