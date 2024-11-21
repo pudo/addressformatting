@@ -1,4 +1,8 @@
-# International Address formatter
+**UPDATE 2024-11-21:** The functionality in this repository has now been moved to `rigour`. See the documentation here: https://opensanctions.github.io/rigour/addresses/
+
+---
+
+## International Address formatter
 
 This is a address formatter that can format addresses in multiple formats that are common
 in different countries.
